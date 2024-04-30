@@ -1,0 +1,131 @@
+h1 {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    align-items: center;
+    flex-direction: row !important;
+}
+
+
+.books {
+    display: flex;
+    align-items: center;
+    flex-direction: column !important;
+    padding: 20px;
+    margin: 20px;
+    border: 2px #333;
+}
+
+.title {
+    width: 35%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px #333 solid;
+    margin-bottom: 10px;
+
+}
+
+
+
+.desc {
+    width: 45%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px #333 solid;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+.author {
+    width: 35%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px #333 solid;
+    margin-bottom: 10px;
+}
+
+.rating {
+    width: 25%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px #333 solid;
+    margin-bottom: 10px;
+}
+
+.info-title {
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-desc {
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-author {
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-rating {
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul,
+li {
+    justify-content: center;
+    background-color: pink;
+    font-size: 15px;
+    padding: 2px;
+    display: flex;
+}
+
+li:hover {
+    background-color: #fababa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.edit {
+    padding: 7px;
+}
+
+.edit:hover {
+    background-color: #fababa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.finished {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: pink;
+}
+
+.finished-button {
+    color: orange;
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border: 3px red dotted;
+}
+
+.finished-button:hover {
+    background-color: #fbdddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
